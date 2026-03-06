@@ -11,19 +11,24 @@ El objetivo central fue convertir registros transaccionales en **decisiones de i
 
 ## 🚀 Impacto de Negocio y Conversión
 Este análisis no se limitó a la visualización; generó resultados tangibles en el embudo de ventas:
-* **Generación de Leads:** Identificación de **92 clientes potenciales** calificados en 3 sectores estratégicos: **Agro, Minería y Consumo Masivo**.
-* **Pipeline de Alto Valor:** En el sector minero, se detectaron **25 oportunidades claras de negocio**.
+* **Generación de Leads:** Identificación de **92 clientes potenciales** calificados en 3 sectores estratégicos: **Agro, Minería y Consumo Masivo**. De ellos se prosecto a mas de **45 clientes** de los cuales se busco a los diferentes buyer personas y se los contacto generando diferentes tipos de interacciones segun un funnel de ventas plabificado que fue modificado segun el tipo de cliente, necesidad y entorno.
+* **Pipeline de Alto Valor:** En estos tres sectores, se detectaron **25 oportunidades claras de negocio**.
     * **4 oportunidades** con un valor superior a **$1,000,000 USD**.
     * **3 oportunidades** con un valor superior a **$500,000 USD**.
+    * **+10 oportunidades** con un valor superior a **$100,00 USD** 
 * **Conversión Final:** La estrategia derivada de este dashboard permitió el **cierre efectivo de 2 ventas de alto valor**.
 
 ## 🛠️ Stack Tecnológico y Metodología
 El proyecto sigue un flujo de trabajo de Ciencia de Datos profesional:
 
-1.  **Limpieza y Preprocesamiento (Python):** * Se incluye un **Jupyter Notebook** donde realicé la normalización de datos, eliminación de duplicados y estructuración de rubros comerciales.
-2.  **Modelado de Datos (Power BI & DAX):**
-    * Creación de un esquema de datos para análisis de estacionalidad y frecuencia de compra.
-3.  **Business Intelligence:**
+1.  **Limpieza y Preprocesamiento (Python):** * Se incluye un **Jupyter Notebook** donde realicé:
+    * **ETL & Data Cleaning:** Procesamiento de múltiples fuentes de datos mensuales (Excel) utilizando Pandas para la normalización de nombres de empresas, rubros y sedes operativas.
+    * **Categorización Avanzada:** Implementación de lógica de negocio para clasificar empresas por volumen de operación (FOB/USD) y segmentación por sectores industriales.
+    * **Consolidación de Datos:** Unión de flujos de exportación e importación para generar una visión 360° del comportamiento comercial de las más de 1,000 empresas.
+    
+3.  **Modelado de Datos (Power BI & DAX):**
+    * Creación de un esquema de datos para análisis de estacionalidad y frecuencia de compra. 
+4.  **Business Intelligence:**
     * Dashboard interactivo para el seguimiento de proveedores y glosas de importación.
 
 ## 💎 Deep Dive: Inteligencia en Sector Minería
@@ -34,7 +39,6 @@ Dado el volumen del sector, realicé un análisis específico de las **4 princip
 ## 📂 Estructura del Repositorio
 * ` /notebooks `: Contiene el archivo `.ipynb` con la limpieza y preprocesamiento de los datos de las 1000 empresas.
 * ` /pbix `: Archivo de Power BI con el dashboard de inteligencia comercial.
-* ` /assets `: Capturas de pantalla de los insights de Minería, Agro e Importaciones.
 
 ---
 
