@@ -1,28 +1,45 @@
-# An-lisis-importaciones-Vs.-Exportaciones-2025-Bolivia
-# 🇧🇴 Análisis de Comercio Exterior: Top 1000 Empresas en Bolivia
+# 📊 Strategic Trade Intelligence: Top 1000 Empresas Bolivia
+### Data-Driven Strategy: Segmentación de Mercado y Generación de Pipeline (Minería, Agro, Consumo)
 
-## 📊 Vista Previa del Dashboard
-<img width="1171" height="673" alt="image" src="https://github.com/user-attachments/assets/037fda41-caaf-4fd9-a69f-82d558fa709e" />
+<img width="1297" height="726" alt="image" src="https://github.com/user-attachments/assets/45b95284-e923-4fcb-b7d8-c11f70a9322d" />
 
-> **Objetivo:** Visualizar el comportamiento de las importaciones y exportaciones en Bolivia para identificar líderes de mercado y tendencias por sector.
 
-## 💡 Contexto del Negocio
-El análisis del comercio exterior es vital para la toma de decisiones estratégicas. Este proyecto permite responder preguntas clave como:
-* ¿Qué regiones (La Paz, Santa Cruz, Cochabamba) mueven mayor volumen de carga?
-* ¿Quiénes son los líderes en valoración monetaria (FOB/CIF) vs. peso físico?
-* ¿Cómo se distribuye la participación de mercado por **Rubro y Sub-rubro**?
+## 🎯 Resumen del Proyecto
+Este proyecto transforma datos masivos de comercio exterior en una **hoja de ruta comercial**. A través del análisis de las **1,000 empresas con mayor volumen de importación y exportación en Bolivia**, desarrollé un modelo de segmentación que permitió identificar nichos desatendidos y oportunidades de suministro técnico.
 
-## 🔎 Características del Reporte
-Este dashboard interactivo permite filtrar y cruzar datos por:
-1.  **Valor Monetario ($):** Análisis de flujo económico.
-2.  **Peso y Cantidad:** Análisis logístico y de volumen.
-3.  **Segmentación Geográfica:** Desglose por departamentos.
-4.  **Sectorización:** Clasificación por Rubro (ej. Minería, Consumo Masivo) y Sub-rubro.
+El objetivo central fue convertir registros transaccionales en **decisiones de inversión y ventas**, pasando de un análisis descriptivo a una ejecución comercial directa.
 
-## 🛠 Habilidades Técnicas Aplicadas
-* **Limpieza de Datos (ETL):** Estandarización de nombres de empresas y clasificación de rubros.
-* **Modelado de Datos:** Creación de relaciones entre tablas de hechos (transacciones) y tablas dimensionales (Región, Rubro).
-* **Visualización:** Uso de mapas, gráficos de barras y matrices para comparación de KPIs.
+## 🚀 Impacto de Negocio y Conversión
+Este análisis no se limitó a la visualización; generó resultados tangibles en el embudo de ventas:
+* **Generación de Leads:** Identificación de **92 clientes potenciales** calificados en 3 sectores estratégicos: **Agro, Minería y Consumo Masivo**.
+* **Pipeline de Alto Valor:** En el sector minero, se detectaron **25 oportunidades claras de negocio**.
+    * **4 oportunidades** con un valor superior a **$1,000,000 USD**.
+    * **3 oportunidades** con un valor superior a **$500,000 USD**.
+* **Conversión Final:** La estrategia derivada de este dashboard permitió el **cierre efectivo de 2 ventas de alto valor**.
+
+## 🛠️ Stack Tecnológico y Metodología
+El proyecto sigue un flujo de trabajo de Ciencia de Datos profesional:
+
+1.  **Limpieza y Preprocesamiento (Python):** * Se incluye un **Jupyter Notebook** donde realicé la normalización de datos, eliminación de duplicados y estructuración de rubros comerciales.
+2.  **Modelado de Datos (Power BI & DAX):**
+    * Creación de un esquema de datos para análisis de estacionalidad y frecuencia de compra.
+3.  **Business Intelligence:**
+    * Dashboard interactivo para el seguimiento de proveedores y glosas de importación.
+
+## 💎 Deep Dive: Inteligencia en Sector Minería
+Dado el volumen del sector, realicé un análisis específico de las **4 principales mineras de Bolivia** para formular estrategias de entrada:
+* **Análisis de Partners vs. Competencia:** Identificación de proveedores actuales para decidir si fortalecer la relación con el partner existente o introducir competencia internacional para capturar mercado local.
+* **Frecuencia de Compra:** Determinación de ciclos de abastecimiento para optimizar el stock y las propuestas comerciales *just-in-time*.
+
+## 📂 Estructura del Repositorio
+* ` /notebooks `: Contiene el archivo `.ipynb` con la limpieza y preprocesamiento de los datos de las 1000 empresas.
+* ` /pbix `: Archivo de Power BI con el dashboard de inteligencia comercial.
+* ` /assets `: Capturas de pantalla de los insights de Minería, Agro e Importaciones.
 
 ---
-*Este proyecto fue desarrollado con fines académicos y de análisis de mercado.*
+
+## 👤 Sobre mí
+**Rodrigo** | **Marketing Manager & Commercial Leader**
+Especialista en **Business Analytics** por la **Universidad Católica de Chile**. Mi enfoque profesional es la intersección entre el análisis de datos masivos y la estrategia comercial de alto nivel, con amplia experiencia en el sector industrial y de proyectos en Bolivia.
+
+---
